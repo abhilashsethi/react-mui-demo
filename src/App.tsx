@@ -1,5 +1,6 @@
 import "./App.css";
 import MuiAccordian from "./components/MuiAccordian";
+import MuiImageList from "./components/MuiImageList";
 // import MuiAutoComplete from "./components/MuiAutoComplete";
 // import MuiCard from "./components/MuiCard";
 // import MuiCheckBox from "./components/MuiCheckBox";
@@ -26,7 +27,8 @@ function App() {
 			{/* <MuiAutoComplete /> */}
 			{/* <MuiLayout /> */}
 			{/* <MuiCard /> */}
-			<MuiAccordian />
+			{/* <MuiAccordian /> */}
+			<MuiImageList />
 		</div>
 	);
 }
