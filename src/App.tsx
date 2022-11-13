@@ -20,6 +20,7 @@
 import MuiAvatar from "./components/MuiAvatar";
 import MuiBadge from "./components/MuiBadge";
 import MuiBottomNavigation from "./components/MuiBottomNavigation";
+import MuiChip from "./components/MuiChip";
 import MuiLink from "./components/MuiLink";
 import MuiList from "./components/MuiList";
 import MuiSpeedDial from "./components/MuiSpeedDial";
@@ -48,7 +49,8 @@ function App() {
 			{/* <MuiBottomNavigation /> */}
 			{/* <MuiAvatar /> */}
 			{/* <MuiBadge /> */}
-			<MuiList />
+			{/* <MuiList /> */}
+			<MuiChip />
 		</div>
 	);
 }
