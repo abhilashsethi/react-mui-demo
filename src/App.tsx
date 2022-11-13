@@ -1,6 +1,8 @@
 import "./App.css";
 import MuiAccordian from "./components/MuiAccordian";
 import MuiImageList from "./components/MuiImageList";
+import MuiLink from "./components/MuiLink";
+import MuiNavbar from "./components/MuiNavbar";
 // import MuiAutoComplete from "./components/MuiAutoComplete";
 // import MuiCard from "./components/MuiCard";
 // import MuiCheckBox from "./components/MuiCheckBox";
@@ -15,7 +17,7 @@ import MuiImageList from "./components/MuiImageList";
 
 function App() {
 	return (
-		<div className="App container m-auto">
+		<div className="">
 			{/* <MuiTypography /> */}
 			{/* <MuiButtons /> */}
 			{/* <MuiTextField /> */}
@@ -28,7 +30,9 @@ function App() {
 			{/* <MuiLayout /> */}
 			{/* <MuiCard /> */}
 			{/* <MuiAccordian /> */}
-			<MuiImageList />
+			{/* <MuiImageList /> */}
+			<MuiNavbar />
+			<MuiLink />
 		</div>
 	);
 }
