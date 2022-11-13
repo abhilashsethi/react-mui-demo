@@ -17,6 +17,7 @@
 // import MuiSelect from "./components/MuiSelect";
 // import MuiRadioButton from "./components/MuiRadioButton";
 
+import MuiAvatar from "./components/MuiAvatar";
 import MuiBottomNavigation from "./components/MuiBottomNavigation";
 import MuiSpeedDial from "./components/MuiSpeedDial";
 
@@ -41,7 +42,8 @@ function App() {
 			{/* <MuiBreadcrumbs /> */}
 			{/* <MuiDrawer /> */}
 			{/* <MuiSpeedDial /> */}
-			<MuiBottomNavigation />
+			{/* <MuiBottomNavigation /> */}
+			<MuiAvatar />
 		</div>
 	);
 }
